@@ -1,0 +1,246 @@
+/* MAIN */
+
+body {
+	background-color: #fff;
+	color: #fff; 
+	font-family: Arial, Sans-serif;
+	background-color: #ccc;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: -20px;
+}
+
+.links {
+  color: blue;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+#header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 50px;
+  /*z-index: -1;*/
+  border-bottom: 5px solid #ccc;
+  /* background-color: rgba(255,255,255,.7); */
+  background-color: #fff;
+
+}
+
+#banner {
+  float: left;
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#logout {
+  padding: 5px 10px;
+  border: none;
+  font-weight: normal;
+  color: #fff;
+  background-color: #2b2d2f;
+  float: right;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-right:25px;
+}
+
+#logout:hover {
+  font-weight: bold;
+  background-color: blue;
+}
+
+p {
+	color: #000;
+}
+
+.centered {
+  margin: 0 auto;
+	text-align: center;
+} 
+
+.container {
+  position: relative;
+  top: 75px;
+  max-width: 850px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  padding: 0px 25px;
+}
+
+/* SUBSCRIBE/FORM PAGE */
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 5px solid #ececec;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  font-weight: bold;
+  color: #a9a9a9;
+  font-size: 12px;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit], [type=reset] {
+  background-color: #2b2d2f;
+  width: 100%;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  margin:
+  border-radius: 4px;
+  margin: 12px 0px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover, [type=reset]:hover {
+	background-color: blue;
+    font-weight: bold;
+}
+
+.formcontainer {
+  box-shadow: 10px 10px 5px #c0c0c0;
+  max-width: 700px;
+  width: 80%;
+  margin: 50px auto;
+  border: 5px solid #fff;
+  background-color: rgba(255,255,255,.7);
+}
+
+.input_container {
+  padding: 20px;
+}
+
+.col-25 {
+  font-color: blue;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#formheader {
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+.form_header {
+  background-color: #fff;
+  width: 100%;
+  height: 65px;
+  margin-top:-20px;
+  margin-bottom:-10px;
+  border-bottom: 5px solid #ececec;
+}
+
+#req {
+  float: right;
+  font-size: 11px;
+  font-style: italic;
+  color: #ccc;
+}
+
+.remember {
+  color: #000;
+  margin: 20px auto;
+}
+
+/* ADD FORM */
+textarea {
+  width: 100%;
+}
+
+/******** TABLES *************/
+
+th {
+  height: 25px;
+  background-color: #fff;
+  color: blue;
+  font-size: 13px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 8px solid #fff;
+  background-color: rgba(255,255,255);
+}
+
+tr, td, th{
+  padding: 10px;
+  text-align: left;
+}
+
+tr {
+  color: #000;
+  border-bottom: 1px solid #ececec;
+}
+
+
+.b_row {
+  padding: 0px;
+  margin: 0px;
+}
+
+.b_row input{
+  float: none;
+  font-size: 10px;
+  background-color: #fff;
+  color: #2b2d2f;
+  padding: 12px 8px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.b_row input:hover{
+  color: white;
+}
+
+.table-name {
+  color: #2b2d2f;
+  background-color: #f5f5f5;
+  border-bottom: 5px solid #ececec;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 20px;
+}
